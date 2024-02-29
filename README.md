@@ -1,4 +1,4 @@
-# Ophuscado Source Code
+# Welcome to Ophuscado
 
 ## About
 
