@@ -32,7 +32,7 @@ Ophuscado does not knowingly collect, either online or offline, personal informa
 
 **Cancellation/Refund Policy**
 
-You may cancel your subscription at any time. Any cancellations made after 60 days of service will not qualify for a refund. Please contact us at [support@ophuscado.com](mailto:support@ophuscado.com) with any questions.
+You may cancel your subscription at any time. Any cancellations made after 60 days of service will not qualify for a refund. Please contact us at [postbox@ophuscado.com](mailto:postbox@ophuscado.com) with any questions.
 
 **Links to Third Party Sites/Third Party Services**
 
@@ -116,7 +116,7 @@ Ophuscado welcomes your questions or comments regarding the Terms:
     United States
 
     Email Address:
-    SUPPORT@OPHUSCADO.COM
+    POSTBOX@OPHUSCADO.COM
 
     Telephone Number:
     +1 (307) 222-3643

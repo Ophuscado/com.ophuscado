@@ -111,7 +111,7 @@ Ophuscado welcomes your questions or comments regarding this Statement of Privac
     United States
 
     Email Address:
-    SUPPORT@OPHUSCADO.COM
+    POSTBOX@OPHUSCADO.COM
 
     Telephone Number:
     +1 (307) 222-3643
