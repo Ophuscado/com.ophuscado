@@ -1,7 +1,0 @@
-Acknowledgments: https://ophuscado.com/contributors
-Canonical: https://ophuscado.com/.well-known/security.txt
-Contact: mailto:support@ophuscado.com
-Expires: Sat, 31 Dec 2029 23:59 +0000
-Encryption: https://ophuscado.com/.well-known/security.pub
-Preferred-Languages: en, es, zh
-Policy: https://ophuscado.com/security
