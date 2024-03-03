@@ -92,42 +92,14 @@
                   <i class="fa-solid fa-house"></i>
                 </span>
               </a>
-              <a class="flex-none group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-{{ COLOR }}-300 gap-x-3" href="{{ SITE_URL }}/features">
+              {% for LINK in NAVIGATION %}
+              <a class="flex-none group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-{{ COLOR }}-300 gap-x-3" href="{{ SITE_URL }}/{{ LINK.slug }}">
                 <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
                 <span class="self-baseline text-white">
-                  Features
+                  {{ LINK.name }}
                 </span>
               </a>
-              <a class="flex-none group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-{{ COLOR }}-300 gap-x-3" href="{{ SITE_URL }}/help-center">
-                <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
-                <span class="self-baseline text-white">
-                  Help Center
-                </span>
-              </a>
-              <a class="flex-none group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-{{ COLOR }}-300 gap-x-3" href="{{ SITE_URL }}/news">
-                <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
-                <span class="self-baseline text-white">
-                  News
-                </span>
-              </a>
-              <a class="flex-none group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-{{ COLOR }}-300 gap-x-3" href="{{ SITE_URL }}/pricing">
-                <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
-                <span class="self-baseline text-white">
-                  Pricing
-                </span>
-              </a>
-              <a class="flex-none group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-{{ COLOR }}-300 gap-x-3" href="{{ SITE_URL }}/privacy-policy">
-                <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
-                <span class="self-baseline text-white">
-                  Privacy Policy
-                </span>
-              </a>
-              <a class="flex-none group relative isolate flex items-center rounded-lg px-2 py-0.5 text-[0.8125rem]/6 font-medium text-white/30 transition-colors hover:text-{{ COLOR }}-300 gap-x-3" href="{{ SITE_URL }}/terms-and-conditions">
-                <span class="absolute inset-0 -z-10 scale-75 rounded-lg bg-white/5 opacity-0 transition group-hover:scale-100 group-hover:opacity-100"></span>
-                <span class="self-baseline text-white">
-                  Terms and Conditions
-                </span>
-              </a>
+              {% endfor %}
             </div>
             <!-- //Navigation -->
           </div>
